@@ -17,5 +17,9 @@
 planets = ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune"]
 
 print("Here are the two ice giants of our Solar System.")
-for planet in planets[-6:]:
+for planet in planets[-2:]:
+    print(planet.title())
+
+print("The inner planets of our Solar System are")
+for planet in planets[:4]:
     print(planet.title())
